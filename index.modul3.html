@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kurs for you</title>
+    <script src="https://unpkg.com/htmx.org@1.6.1"></script>
+  </head>
+
+  <body>
+    <header class="header">
+    </header>
+    <main>
+      <section
+        class="modul1"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.third-modul.html"
+      ></section>
+      <section
+      class="modul1test"
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.thirdtest.html"
+    ></section>
+    </main>
+    <footer
+    ></footer>
+  </body>
+</html>
